@@ -1,0 +1,8 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 3,
+	"title": "Lede",
+	"slug": "paragraph-lede",
+	"blockTypes": ["core/paragraph"],
+	"styles": {}
+}

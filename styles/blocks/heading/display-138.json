@@ -1,0 +1,16 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 3,
+	"title": "Display 138",
+	"slug": "heading-display-138",
+	"blockTypes": ["core/heading"],
+	"styles": {
+		"typography": {
+			"fontFamily": "var:preset|font-family|default",
+			"fontWeight": "900",
+			"lineHeight": "120%",
+			"fontSize": "8.625rem",
+			"letterSpacing": "-2.76px"
+		}
+	}
+}
