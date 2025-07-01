@@ -1,0 +1,14 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 3,
+	"title": "Brand",
+	"slug": "button-brand",
+	"blockTypes": ["core/button"],
+	"styles": {
+		"color": {
+			"background": "var:preset|color|primary-500",
+			"text": "var:preset|color|white"
+		},
+		"css": ":hover { background-color: var(--wp--preset--color--blue-500); }"
+	}
+}
