@@ -3,10 +3,14 @@
 		"color": {
 			"gradients": [
 				{
-					"color": "#000",
-					"gradient": "linear-gradient(270deg,rgba(0,23,87,0) 52.33%,rgba(0,23,87,0.7) 100%)",
-					"name": "Color 1",
-					"slug": "custom-color-1"
+					"gradient": "linear-gradient(270deg, rgba(0, 23, 87, 0.00) 52.33%, rgba(0, 23, 87, 0.70) 100%)",
+					"name": "Gradient 1",
+					"slug": "custom-gradient-1"
+				},
+				{
+					"gradient": "linear-gradient(180deg, rgba(0, 23, 87, 0.85) 2.25%, rgba(0, 23, 87, 0.00) 46.85%)",
+					"name": "Gradient 2",
+					"slug": "custom-gradient-2"
 				}
 			],
 			"palette": [
@@ -174,10 +178,166 @@
 					"color": "#ffffff",
 					"name": "White",
 					"slug": "white"
+				},
+				{
+					"color": "#e6edf4",
+					"name": "Primary/50",
+					"slug": "custom-primary-50"
+				},
+				{
+					"color": "#00478e",
+					"name": "Primary/200",
+					"slug": "custom-primary-200"
+				},
+				{
+					"color": "#001f5f",
+					"name": "Primary/500",
+					"slug": "custom-primary-500"
+				},
+				{
+					"color": "#00033c",
+					"name": "Primary/700",
+					"slug": "custom-primary-700"
+				},
+				{
+					"color": "#ffe6f1",
+					"name": "Secondary/50",
+					"slug": "custom-secondary-50"
+				},
+				{
+					"color": "#ff5f99",
+					"name": "Secondary/200",
+					"slug": "custom-secondary-200"
+				},
+				{
+					"color": "#ff0373",
+					"name": "Secondary/500",
+					"slug": "custom-secondary-500"
+				},
+				{
+					"color": "#d1006f",
+					"name": "Secondary/700",
+					"slug": "custom-secondary-700"
+				},
+				{
+					"color": "#e6f8fe",
+					"name": "Blue/100",
+					"slug": "custom-blue-100"
+				},
+				{
+					"color": "#5ed6ff",
+					"name": "Blue/200",
+					"slug": "custom-blue-200"
+				},
+				{
+					"color": "#00bdf6",
+					"name": "Blue/500",
+					"slug": "custom-blue-500"
+				},
+				{
+					"color": "#009cc6",
+					"name": "Blue/700",
+					"slug": "custom-blue-700"
+				},
+				{
+					"color": "#ecf8eb",
+					"name": "Green/100",
+					"slug": "custom-green-100"
+				},
+				{
+					"color": "#64d440",
+					"name": "Green/200",
+					"slug": "custom-green-200"
+				},
+				{
+					"color": "#42bb37",
+					"name": "Green/500",
+					"slug": "custom-green-500"
+				},
+				{
+					"color": "#29a500",
+					"name": "Green/700",
+					"slug": "custom-green-700"
+				},
+				{
+					"color": "#fff8e6",
+					"name": "Yellow/100",
+					"slug": "custom-yellow-100"
+				},
+				{
+					"color": "#fed34c",
+					"name": "Yellow/200",
+					"slug": "custom-yellow-200"
+				},
+				{
+					"color": "#ffb500",
+					"name": "Yellow/500",
+					"slug": "custom-yellow-500"
+				},
+				{
+					"color": "#eaab00",
+					"name": "Yellow/700",
+					"slug": "custom-yellow-700"
+				},
+				{
+					"color": "#ffede9",
+					"name": "Orange/100",
+					"slug": "custom-orange-100"
+				},
+				{
+					"color": "#ff721a",
+					"name": "Orange/200",
+					"slug": "custom-orange-200"
+				},
+				{
+					"color": "#fb471f",
+					"name": "Orange/500",
+					"slug": "custom-orange-500"
+				},
+				{
+					"color": "#d92121",
+					"name": "Orange/700",
+					"slug": "custom-orange-700"
+				},
+				{
+					"color": "#0080a3",
+					"name": "Blue Links",
+					"slug": "custom-blue-links"
+				},
+				{
+					"color": "#f3f5f5",
+					"name": "Gray/100",
+					"slug": "custom-gray-100"
+				},
+				{
+					"color": "#c4c7c7",
+					"name": "Gray/200",
+					"slug": "custom-gray-200"
+				},
+				{
+					"color": "#adb1b1",
+					"name": "Gray/500",
+					"slug": "custom-gray-500"
+				},
+				{
+					"color": "#919191",
+					"name": "Gray/600",
+					"slug": "custom-gray-600"
+				},
+				{
+					"color": "#707070",
+					"name": "Gray/700",
+					"slug": "custom-gray-700"
+				},
+				{
+					"color": "#333333",
+					"name": "Gray/800",
+					"slug": "custom-gray-800"
 				}
 			]
 		},
 		"layout": {
+			"contentSize": "740px",
 			"wideSize": "1128px"
 		},
 		"shadow": [],
@@ -314,9 +474,10 @@
 					"radius": "0px"
 				},
 				"color": {
+					"background": "var(--wp--preset--color--custom-secondary-500)",
 					"text": "var(--wp--preset--color--white)"
 				},
-				"css": ":hover { background-color: var(--wp--preset--color--secondary-700); }",
+				"css": "&:hover { background-color: var(--wp--preset--color--secondary-700); }",
 				"elements": {
 					"link": {
 						"color": {
@@ -330,6 +491,36 @@
 						"left": "var(--wp--preset--spacing--medium)",
 						"right": "var(--wp--preset--spacing--medium)",
 						"top": "var(--wp--preset--spacing--small)"
+					}
+				},
+				"variations": {
+					"button-brand": {
+						"color": {
+							"background": "var(--wp--preset--color--primary)"
+						}
+					},
+					"button-light": {
+						"border": {
+							"bottom": {
+								"style": "none",
+								"width": "0px"
+							},
+							"left": {
+								"style": "none",
+								"width": "0px"
+							},
+							"right": {
+								"style": "none",
+								"width": "0px"
+							},
+							"top": {
+								"style": "none",
+								"width": "0px"
+							}
+						},
+						"color": {
+							"text": "var(--wp--preset--color--primary)"
+						}
 					}
 				}
 			},
@@ -347,27 +538,26 @@
 		},
 		"color": {
 			"background": "var(--wp--preset--color--white)",
-			"text": "var(--wp--preset--color--black)"
+			"text": "var(--wp--preset--color--primary)"
 		},
 		"elements": {
 			"button": {
+				":hover": {
+					"color": {
+						"background": "var(--wp--preset--color--secondary-700)"
+					},
+					"typography": {
+						"textDecoration": "none"
+					}
+				},
 				"color": {
 					"background": "var(--wp--preset--color--secondary-500)",
 					"text": "var(--wp--preset--color--white)"
 				},
 				"typography": {
 					"fontStyle": "normal",
-					"fontWeight": "700",
+					"fontWeight": "600",
 					"letterSpacing": "0.07px"
-				},
-				":hover": {
-					"color": {
-						"background": "var(--wp--preset--color--secondary-700)"
-
-					},
-					"typography": {
-						"textDecoration": "none"
-					}
 				}
 			},
 			"heading": {
@@ -389,6 +579,9 @@
 				},
 				"color": {
 					"text": "var(--wp--preset--color--blue-links)"
+				},
+				"typography": {
+					"textDecoration": "underline"
 				}
 			}
 		},
