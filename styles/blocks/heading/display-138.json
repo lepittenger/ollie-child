@@ -5,12 +5,15 @@
 	"slug": "heading-display-138",
 	"blockTypes": ["core/heading"],
 	"styles": {
+		"color": {
+			"text": "var(--wp--preset--color--primary-500)"
+		},
 		"typography": {
 			"fontFamily": "var:preset|font-family|default",
 			"fontWeight": "900",
-			"lineHeight": "120%",
+			"lineHeight": "1.2",
 			"fontSize": "8.625rem",
-			"letterSpacing": "-2.76px"
+			"letterSpacing": "-2%"
 		}
 	}
 }
