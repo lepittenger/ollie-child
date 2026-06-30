@@ -2,7 +2,18 @@
 	"$schema": "https://schemas.wp.org/trunk/theme.json",
 	"version": 3,
 	"title": "Lede",
-	"slug": "paragraph-lede",
-	"blockTypes": ["core/paragraph"],
-	"styles": {}
+	"slug": "lede",
+	"blockTypes": ["core/paragraph", "core/heading"],
+	"styles": {
+		"color": {
+			"text": "var(--wp--preset--color--primary-500)"
+		},
+		"typography": {
+			"fontFamily": "var:preset|font-family|default",
+			"fontWeight": "300",
+			"lineHeight": "1.333",
+			"fontSize": "var(--wp--preset--font-size--lede)",
+			"letterSpacing": "-1%"
+		}
+	}
 }
