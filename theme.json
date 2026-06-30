@@ -77,7 +77,7 @@
 				{
 					"color": "#009cc6",
 					"name": "Blue/700",
-					"slug": "blue-700-1"
+					"slug": "blue-700"
 				},
 				{
 					"color": "#ecf8eb",
@@ -182,8 +182,8 @@
 			]
 		},
 		"layout": {
-			"contentSize": "740px",
-			"wideSize": "1128px"
+			"contentSize": "744px",
+			"wideSize": "1160px"
 		},
 		"shadow": [],
 		"typography": {
@@ -275,52 +275,53 @@
 				},
 				{
 					"fluid": {
-						"max": "24px",
-						"min": "28px"
+						"max": "28px",
+						"min": "24px"
 					},
 					"name": "Extra Large",
-					"size": "3.5rem",
+					"size": "28px",
 					"slug": "x-large"
 				},
 				{
 					"fluid": {
-						"max": "24px",
-						"min": "36px"
+						"max": "36px",
+						"min": "24px"
 					},
 					"name": "Extra Extra Large",
-					"size": "4.3875rem",
+					"size": "36px",
 					"slug": "xx-large"
 				},
 				{
 					"fluid": {
-						"max": "28px",
-						"min": "48px"
+						"max": "48px",
+						"min": "28px"
 					},
 					"name": "XXXL",
-					"size": "16px",
+					"size": "48px",
 					"slug": "xxxl"
 				},
 				{
 					"fluid": {
-						"max": "36px",
-						"min": "60px"
+						"max": "60px",
+						"min": "36px"
 					},
 					"name": "XXXXL",
-					"size": "16px",
+					"size": "60px",
 					"slug": "xxxxl"
 				},
 				{
+					"fluid": false,
 					"name": "Lede",
 					"size": "24px",
 					"slug": "lede"
 				},
 				{
 					"fluid": {
-						"max": "60px",
-						"min": "138px"
+						"max": "138px",
+						"min": "60px"
 					},
 					"name": "Display 138",
-					"size": "16px",
+					"size": "138px",
 					"slug": "display-138"
 				},
 				{
@@ -329,8 +330,14 @@
 						"min": "80px"
 					},
 					"name": "Display 80",
-					"size": "16px",
+					"size": "80px",
 					"slug": "display-80"
+				},
+				{
+					"fluid": false,
+					"name": "Body",
+					"size": "16px",
+					"slug": "body"
 				}
 			]
 		}
@@ -453,7 +460,7 @@
 			"link": {
 				":hover": {
 					"color": {
-						"text": "var(--wp--preset--color--blue-700-1)"
+						"text": "var(--wp--preset--color--blue-700)"
 					}
 				},
 				"color": {
