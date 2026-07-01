@@ -12,6 +12,12 @@ Tags:         blog, portfolio, entertainment, grid-layout, one-column, two-colum
 Text Domain: ollie-child
 */
 
+/* Typography */
+.has-xxxxl-font-size {
+    line-height: 1.1333333333 !important;
+    letter-spacing: -2% !important;
+}
+/* Button styles */
 .wp-block-button__link.has-white-background-color {
 	color: var(--wp--preset--color--primary-500);
 }

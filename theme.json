@@ -423,7 +423,8 @@
 					"size": "18px",
 					"slug": "body-18"
 				}
-			]
+			],
+			"lineHeight": false
 		},
 		"blocks": {
 			"core/button": {

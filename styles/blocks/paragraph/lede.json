@@ -3,7 +3,7 @@
 	"version": 3,
 	"title": "Lede",
 	"slug": "lede",
-	"blockTypes": ["core/paragraph", "core/heading"],
+	"blockTypes": ["core/paragraph"],
 	"styles": {
 		"color": {
 			"text": "var(--wp--preset--color--primary-500)"

@@ -2,8 +2,8 @@
 	"$schema": "https://schemas.wp.org/trunk/theme.json",
 	"version": 3,
 	"title": "Display 138",
-	"slug": "heading-display-138",
-	"blockTypes": ["core/heading"],
+	"slug": "display-138",
+	"blockTypes": ["core/paragraph"],
 	"styles": {
 		"color": {
 			"text": "var(--wp--preset--color--primary-500)"
@@ -11,8 +11,8 @@
 		"typography": {
 			"fontFamily": "var:preset|font-family|default",
 			"fontWeight": "900",
-			"lineHeight": "1.2",
-			"fontSize": "8.625rem",
+			"lineHeight": "clamp(68px, 30.82px + 11.619vw, 165.6px)",
+			"fontSize": "var(--wp--preset--font-size--display-138)",
 			"letterSpacing": "-2%"
 		}
 	}
