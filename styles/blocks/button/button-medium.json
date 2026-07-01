@@ -1,0 +1,20 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 3,
+	"title": "Medium",
+	"slug": "medium",
+	"blockTypes": ["core/button"],
+	"styles": {
+		"spacing": {
+			"padding": {
+				"top": "var(--wp--preset--spacing--8)",
+				"right": "var(--wp--preset--spacing--18)",
+				"bottom": "var(--wp--preset--spacing--8)",
+				"left": "var(--wp--preset--spacing--18)"
+			}
+		},
+		"typography": {
+			"fontSize": "var(--wp--preset--font-size--xxs)"
+		}
+	}
+}

@@ -424,6 +424,63 @@
 					"slug": "body-18"
 				}
 			]
+		},
+		"blocks": {
+			"core/button": {
+				"spacing": {
+					"padding": false
+				},
+				"typography": {
+					"__experimentalSkipSerialization": false,
+					"fontSize": false,
+					"lineHeight": false,
+					"textAlign": false,
+					"__experimentalFontFamily": false,
+					"__experimentalFontWeight": false,
+					"__experimentalFontStyle": false,
+					"__experimentalTextTransform": false,
+					"__experimentalTextDecoration": false,
+					"__experimentalLetterSpacing": false,
+					"__experimentalWritingMode": false,
+					"__experimentalDefaultControls": {
+						"fontSize": false
+					}
+				},
+				"color": {
+					"background": true,
+					"text": false,
+					"palette": [
+						{
+							"name": "Secondary/500",
+							"slug": "secondary-500",
+							"color": "#ff0373"
+						},
+						{
+							"name": "Primary/500",
+							"slug": "primary-500",
+							"color": "#001f5f"
+						},
+						{
+							"name": "White",
+							"slug": "white",
+							"color": "#ffffff"
+						}
+					]
+				},
+				"border": {
+					"width": false,
+					"radius": false,
+					"style": false,
+					"color": false
+				},
+				"shadow": {
+					"defaultPresets": false,
+					"presets": []
+				},
+				"variations": {
+					"outline": {}
+				}
+			}
 		}
 	},
 	"styles": {

@@ -11,3 +11,13 @@ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
 Tags:         blog, portfolio, entertainment, grid-layout, one-column, two-columns, three-columns, four-columns, block-patterns, block-styles, custom-logo, custom-menu, editor-style, featured-images, full-site-editing, full-width-template, rtl-language-support, style-variations, template-editing, theme-options, translation-ready, wide-blocks
 Text Domain: ollie-child
 */
+
+.wp-block-button__link.has-white-background-color {
+	color: var(--wp--preset--color--primary-500);
+}
+
+.wp-block-button .wp-block-button__link.has-white-background-color:hover,
+.wp-block-button .wp-block-button__link.has-primary-500-background-color:hover {
+	background-color: var(--wp--preset--color--blue-500) !important;
+	color: var(--wp--preset--color--white) !important;
+}
